@@ -17,7 +17,7 @@ strategy:
   windows:
    imageName: "windows-latest"
    artifactName: "windows-release"
- maxParallel: 3z
+ maxParallel: 3
 
 pool:
   vmImage: $(imageName)
