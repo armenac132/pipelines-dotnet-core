@@ -1,3 +1,4 @@
+[![Build Status](https://tollbrothers.visualstudio.com/zzz_DevOps_Test/_apis/build/status/armenac132.pipelines-dotnet-core?branchName=master)](https://tollbrothers.visualstudio.com/zzz_DevOps_Test/_build/latest?definitionId=38&branchName=master)
 # Sample ASP.NET Core application for Azure Pipelines docs
 
 For information on how to set up a pipeline for this repository, see [Create your first pipeline](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azure-devops).
