@@ -10,11 +10,14 @@ strategy:
  matrix:
   linux:
    imageName: "ubuntu-latest"
+   artifactName: "ubuntu-release"
   mac:
    imageName: "macOS-latest"
+   artifactName: "macOS-release"
   windows:
    imageName: "windows-latest"
- maxParallel: 3
+   artifactName: "windows-release"
+ maxParallel: 3z
 
 pool:
   vmImage: $(imageName)
@@ -29,4 +32,4 @@ steps:
   inputs:
     targetPath: '$(Pipeline.Workspace)'
     artifactType: 'pipeline'
-    artifactName: 'initialTest'
+    artifactName: '$(artifactName)'
