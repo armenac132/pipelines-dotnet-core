@@ -5,6 +5,7 @@
 
 trigger:
 - master
+- feature/*
 
 schedules:
   - cron: "0 16 * * *"
